@@ -1,0 +1,111 @@
+body {
+    background-color: #EDCFB9;
+    min-height: 100vh;
+}
+
+.section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.img-responsive {
+    z-index: -1;
+}
+
+h1 {
+    color: #FBE8C9;
+    font-size: 3rem;
+}
+
+.container h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p-text {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.parallax-container h1 {
+    padding: 60px;
+    font-size: 50px;
+    margin-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 670px){
+    header{
+        min-height: 500px;
+    }
+}
+
+
+.nav-wrapper{
+    background-color: #ffdcc2 !important;
+}
+
+.brand-logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.row img {
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+
+.row h2 {
+    font-size: 38px;
+}
+
+.row p {
+    font-size: 16px;
+}
+
+.row img {
+    height: 250;
+}
+
+.row a {
+    text-decoration: underline;
+}
+
+header .brand-logo{
+    font-size: 2em;
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: 600;
+}
+
+header nav {
+    /* position: fixed; */
+    top: 0;
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    z-index: 100;
+    transition: 0.3s ease-in-out;
+}
+
+.p-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+footer {
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+.col s12 l5 offset-l7 p {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
